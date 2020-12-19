@@ -1,9 +1,14 @@
+# Disclaimer
+This repository contains code that I wrote when studying Software Engineering at Czech Technical University in Prague.
+
+The objective of these assignments was to write code that works, covers all edge cases, and is somewhat performant. Usually, there were additional rules we had to follow - like limits on the amount of memory our programs could use or that all code needed to be in a single file 🤷‍♂️.
+
+Please keep in mind that I wrote this code years ago and that it was a school assignment. This repository does not serve as the best example of my coding skills.
+
+You can read the full assignment bellow (in Czech).
+
 # Memory manager (i386)
 
-## Disclaimer
-The program is not properly tested nor serves as the best example of my coding skills. It needed to be written rapidly due to the conditions of the class. You can read the full assignment bellow (in Czech).
-
-## Zadání
 Úkolem je realizovat funkce a třídy implementující zjednodušenou správu virtuální paměti v OS.
 
 Cílem úlohy je hlubší pochopení problematiky virtuální paměti a její správy v OS. Pro účely této úlohy však byla celá problematika drasticky zjednodušena. Celé programování probíhá na úrovni C a C++ a není potřeba pracovat s privilegovanými instrukcemi CPU (tedy jedná se o čistě user-space program, není potřeba znalost assembleru):
